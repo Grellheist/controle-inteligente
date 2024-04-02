@@ -2,7 +2,7 @@ import numpy
 import matplotlib.pyplot as plt
 
 #Quantidade de cidades
-n = 50
+n = 5
 
 #Geração dos pontos x e y
 x = numpy.random.uniform(0,1000, n)
