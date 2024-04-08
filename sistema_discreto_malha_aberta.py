@@ -27,5 +27,5 @@ for i in range(maior_tamanho,qtd_amostras+maior_tamanho):
 plt.step(dt*numpy.arange(0,qtd_amostras),y[maior_tamanho:])
 plt.xlabel('Tempo (Segundos)')
 plt.ylabel('Amplitude')
-plt.legen('Reposta ao degrau do sistema discreto')
+plt.legend('Reposta ao degrau do sistema discreto')
 plt.show()
